@@ -1,13 +1,9 @@
-char = input ("Enter a letter: ")
-if char =='a':
-    print("Vowel")
-    elif char == 'e':
-        print("Vowel")
-     elif char == 'i':
-        print("Vowel")
-     elif char =='o':
-        print("Vowel")
-    elif char == 'u':
-        print("Vowel")
-else 
-print("Not a vowel")   
+# char = input ("Enter a letter: ")
+# if char =='a'or char=="e":
+#     print("Vowel")
+
+def greet(name: str ="user"):
+    return print(f"hello, {name}!")
+
+greet()
+greet("aman")
